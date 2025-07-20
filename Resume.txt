@@ -1,0 +1,170 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Chidambararaja B} \\ \vspace{1pt}
+    \small Junior Frontend Developer \\ \vspace{1pt}
+    \small 8682992677 $|$ \href{mailto:chidambararaja97@gmail.com}{chidambararaja97@gmail.com} $|$ 
+    \href{https://linkedin.com/in/chidambararajab}{linkedin.com/in/chidambararajab} $|$
+    \href{https://github.com/chidambararajab}{github.com/chidambararajab}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\small{
+Enthusiastic and detail-oriented Junior Frontend Developer with 1 year of hands-on experience building responsive and user-friendly web applications using HTML, CSS, JavaScript, and React. Passionate about clean code, performance, and learning modern UI development practices.
+}
+
+\vspace{8pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Junior Frontend Developer}{July 2023 -- Present}
+      {StartupX Web Solutions}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Built and styled responsive pages using HTML5, CSS3, and JavaScript}
+        \resumeItem{Worked on single-page React applications with reusable components}
+        \resumeItem{Integrated frontend with REST APIs using Axios and Fetch}
+        \resumeItem{Fixed UI bugs and improved form validations to enhance user experience}
+        \resumeItem{Used Git and GitHub for version control and team collaboration}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{8pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Tools}{: HTML5, CSS3, JavaScript (ES6), React.js, API Integration, Git, GitHub} \\
+     \textbf{Styling Libraries}{: Tailwind CSS, Flexbox, Grid} \\
+     \textbf{Version Control}{: Git, GitHub} \\
+     \textbf{Other Tools}{: VS Code, Figma (basic)} 
+    }}
+ \end{itemize}
+
+\vspace{8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {React Portfolio Website}{2024}
+      {React.js, HTML, Tailwind CSS}{}
+      \resumeItemListStart
+        \resumeItem{Created a personal portfolio with project sections and contact form}
+        \resumeItem{Implemented mobile-first responsive design and smooth scroll}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Weather App Using API}{2024}
+      {HTML, CSS, JavaScript, OpenWeather API}{}
+      \resumeItemListStart
+        \resumeItem{Built a weather app that fetches real-time data using Fetch API}
+        \resumeItem{Displayed weather data dynamically with condition-based icons}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{8pt}
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{React Basics (Meta)} – Coursera \\
+     \textbf{Responsive Web Design} – freeCodeCamp \\
+     \textbf{JavaScript for Beginners} – Great Learning Academy
+    }}
+ \end{itemize}
+
+\vspace{8pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {B.E. in Computer Science and Engineering}{2015 -- 2019}
+      {Anand Institute of Higher Technology}{Chennai, India}
+  \resumeSubHeadingListEnd
+
+\vspace{8pt}
+
+%-----------ADDITIONAL-----------
+\section{Additional Details}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages Known}{: English (Professional), Tamil (Native)} \\
+     \textbf{Hobbies}{: Coding practice, UI cloning, watching tech videos}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
