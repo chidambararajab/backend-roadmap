@@ -1,0 +1,46 @@
+📌 Dependencies
+
+Core Project Dependencies
+	•	React (18+) → Base framework.
+	•	Material UI (MUI 5+) → UI component library.
+	•	Your custom bootstrapped MUI packages (design tokens, wrappers, orchestration layouts).
+	•	TypeScript → for type safety and consistency.
+
+AI Dependencies
+	•	GitHub Copilot / Copilot Chat (if Copilot-first approach).
+	•	OR LLM API (OpenAI GPT-4/5, Anthropic, etc.) (if RAG setup).
+	•	Vector Database (Pinecone, Weaviate, FAISS, or pgvector) → to store orchestration rules, examples.
+	•	LangChain / LlamaIndex → for RAG pipeline & context management.
+
+Validation Dependencies
+	•	ESLint + Prettier → code quality and formatting.
+	•	Custom ESLint rules → enforce orchestration conventions.
+	•	Jest/React Testing Library → optional validation of generated components.
+
+⸻
+
+📌 Tech Stack
+
+Frontend
+	•	React (with TypeScript)
+	•	Material UI 5 + Custom Design System (your orchestration framework)
+	•	React Router (for page routing)
+	•	Formik / React Hook Form (for forms, if used in orchestration)
+
+AI/Automation Layer
+	•	Copilot (for in-editor AI codegen)
+	•	OR OpenAI GPT-4/5 API (for external bot/codegen CLI)
+	•	LangChain / LlamaIndex (to manage orchestration docs as context in RAG setup)
+	•	Vector DB (Pinecone/Weaviate) for storing rules/examples
+
+Validation & Tooling
+	•	ESLint + Prettier (with custom plugin rules)
+	•	Husky + Lint-Staged (pre-commit validation)
+	•	CI/CD Bot (GitHub Actions) for PR-time validation
+
+⸻
+
+✅ Summary:
+	•	Scope: UI scaffolding with orchestration-aware AI.
+	•	Dependencies: React, MUI, Copilot/LLM API, ESLint, Vector DB (if RAG).
+	•	Tech Stack: React + TypeScript + MUI + AI Layer (Copilot/RAG) + Validation Tools.
